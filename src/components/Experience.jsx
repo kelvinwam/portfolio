@@ -26,7 +26,6 @@ export default function Experience() {
     <section className={styles.section} id="experience">
       <div className={styles.header}>
         <h2 className={styles.title}>Experience</h2>
-        <span className={styles.accent}>Timeline</span>
       </div>
       <div className={styles.timeline}>
         {experience.map((item, i) => (

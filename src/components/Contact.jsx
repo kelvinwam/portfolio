@@ -25,7 +25,7 @@ export default function Contact() {
             Email
           </a>
           <a
-            href="/KELVIN WAMBUA MWANZIA CV.pdf"
+            href="./KELVIN WAMBUA MWANZIA CV.pdf"
             download="Kelvin_Wambua_CV.pdf"
             className={`${styles.link} ${styles.cv}`}
           >

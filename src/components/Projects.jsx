@@ -7,7 +7,7 @@ const projects = [
     title: 'My Portfolio',
     desc: 'Production-grade React frontend for my portfolio — responsive, performant, and pixel-perfect.',
     tech: 'React',
-    image: '../src/assets/images/portfolio.png', // Path to your screenshot in public/
+    image: './assets/images/portfolio.png', 
     link: 'https://frsna.org',
     type: 'Web App',
   },
@@ -16,7 +16,7 @@ const projects = [
     title: 'MachaWeather App',
     desc: 'Flutter mobile app with real-time weather, GPS detection, and seamless dark/light theme toggle.',
     tech: 'Flutter',
-    image: '/machaweather.jpg', // Path to your screenshot in public/
+    image: './machaweather.jpg',
     link: 'https://drive.google.com/file/d/1My0QIsHouUO6uNAGwBjjnLS_fPPulUk_/view',
     type: 'Mobile',
   },
@@ -25,7 +25,7 @@ const projects = [
     title: 'Travel Platform',
     desc: 'Full-stack Django web app featuring secure sign-up/sign-in, session management, and destination browsing.',
     tech: 'Django',
-    image: '../src/assets/images/travel.png', // Path to your screenshot in public/
+    image: '../src/assets/images/travel.png',
     link: 'https://wambua.pythonanywhere.com',
     type: 'Full-Stack',
   },
@@ -62,7 +62,7 @@ export default function Projects() {
   return (
     <section className={styles.section} id="projects">
       <div className={styles.header}>
-        <h2 className={styles.accent}>Projects</h2>
+        <h2 className={styles.title}>Projects</h2>
       </div>
       <div className={styles.progressBar}>
         {Array.from({ length: 12 }).map((_, i) => (

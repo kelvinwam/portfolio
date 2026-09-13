@@ -36,7 +36,7 @@ export default function Skills() {
   return (
     <section className={styles.section} id="skills" ref={ref}>
       <div className={styles.header}>
-        <h2 className={styles.accent}>Tech Stack</h2>
+        <h2 className={styles.title}>Tech Stack</h2>
       </div>
       <div className={styles.grid}>
         {skills.map(skill => (

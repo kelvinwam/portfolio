@@ -20,7 +20,6 @@ export default function Certifications() {
     <section className={styles.section} id="certifications">
       <div className={styles.header}>
         <h2 className={styles.title}>Certifications</h2>
-        <span className={styles.accent}>Verified</span>
       </div>
       <div className={styles.grid}>
         {certs.map(cert => (

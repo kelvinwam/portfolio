@@ -1,5 +1,4 @@
 import styles from './Hero.module.css'
-import { FaLinkedin, FaEnvelope, FaPhone } from 'react-icons/fa';
 
 const tags = ['React', 'Flutter', 'Python', 'AWS', 'Django', 'Networking']
 
@@ -67,7 +66,7 @@ export default function Hero() {
              Get In Touch
           </a>
           <a
-            href="/KELVIN WAMBUA MWANZIA.pdf"
+            href="./KELVIN WAMBUA MWANZIA.pdf"
             download="Kelvin_Wambua_CV.pdf"
             className={styles.btnCv}
           >
@@ -80,7 +79,7 @@ export default function Hero() {
       <div className={styles.profileWrap}>
         <div className={styles.profileGlow} />
         <img 
-          src="/profile.jpg" 
+          src="./profile.jpg" 
           alt="Kelvin Wambua" 
           className={styles.profileImg}
         />
