@@ -8,7 +8,7 @@ const projects = [
     desc: 'Production-grade React frontend for my portfolio — responsive, performant, and pixel-perfect.',
     tech: 'React',
     image: './portfolio.png', 
-    link: 'https://frsna.org',
+    link: 'kelvinwam.github.io/portfolio',
     type: 'Web App',
   },
   {
