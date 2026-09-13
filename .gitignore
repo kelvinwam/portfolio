@@ -1,4 +1,4 @@
-node modules
+node_modules
 README.md
 package-lock.json
 vite.config.js
