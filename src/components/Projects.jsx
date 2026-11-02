@@ -13,6 +13,15 @@ const projects = [
   },
   {
     id: 2,
+    title: 'Landmark Insurance',
+    desc: 'This is a revamped website if Landmark was to hire me for their website',
+    tech: 'React',
+    image: './landmark.png', 
+    link: 'https://landmark-insurance-git-master-my-projects-f4c49449.vercel.app/',
+    type: 'Web App',
+  },
+  {
+    id: 3,
     title: 'MachaWeather App',
     desc: 'Flutter mobile app with real-time weather, GPS detection, and seamless dark/light theme toggle.',
     tech: 'Flutter',
@@ -21,7 +30,7 @@ const projects = [
     type: 'Mobile',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Travel Platform',
     desc: 'Full-stack Django web app featuring secure sign-up/sign-in, session management, and destination browsing.',
     tech: 'Django',
@@ -29,6 +38,7 @@ const projects = [
     link: 'https://wambua.pythonanywhere.com',
     type: 'Full-Stack',
   },
+
 ]
 
 function ProjectCard({ project }) {
