@@ -14,7 +14,7 @@ const projects = [
   {
     id: 2,
     title: 'Landmark Insurance',
-    desc: 'This is a revamped website if Landmark was to hire me for their website',
+    desc: 'This is a revamped website if Landmark Insurance was to hire me for their website',
     tech: 'React',
     image: './landmark.png', 
     link: 'https://landmark-insurance-git-master-my-projects-f4c49449.vercel.app/',
